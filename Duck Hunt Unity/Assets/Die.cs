@@ -3,8 +3,9 @@ using System.Collections;
 
 public class Die : MonoBehaviour {
 
-	void OnMouseUp () 
+	void OnMouseDown () 
 	{
+		StaticVars.gameScore++;
 		Object.Destroy (this.gameObject);
 	}
 

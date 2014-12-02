@@ -7,19 +7,32 @@ public class Fly : MonoBehaviour {
 	private float altDirection;
 	public bool flightDirection = false;
 
-	// Use this for initialization
-	void Start () {
+	void ResetFlightDirection ()
+	{
 		flightDirection = (Random.value < 0.5);
+		ChangeDirection ();
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+	void Start () {
+		ResetFlightDirection ();
+	}
+
+	void ChangeDirection ()
+	{
 		if (flightDirection) {
 			altDirection = flightSpeed;
-		} else {
-			altDirection = flightSpeed*-1;
 		}
+		else {
+			altDirection = flightSpeed * -1;
+		}
+	}
 
+	void Update () {
 		transform.position += new Vector3 (altDirection,flightSpeed,0);
 	}
+
+//	void OnTriggerEnter () 
+//	{
+//		ResetFlightDirection ();
+//	}
 }

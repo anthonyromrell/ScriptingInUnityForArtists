@@ -47,7 +47,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Die.cs" />
+     <Compile Include="Assets\EndDuck.cs" />
      <Compile Include="Assets\Fly.cs" />
+     <Compile Include="Assets\Generator.cs" />
+     <Compile Include="Assets\States.cs" />
+     <Compile Include="Assets\StaticVars.cs" />
+     <Compile Include="Assets\UpdateScore.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity46/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
