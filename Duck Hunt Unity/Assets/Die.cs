@@ -3,10 +3,13 @@ using System.Collections;
 
 public class Die : MonoBehaviour {
 
-	void OnMouseDown () 
+	public Fly flyS;
+	public Fall fallS;
+
+	void OnMouseEnter () 
 	{
 		StaticVars.gameScore++;
-		Object.Destroy (this.gameObject);
+		flyS.enabled = false;
+		fallS.enabled = true;
 	}
-
 }

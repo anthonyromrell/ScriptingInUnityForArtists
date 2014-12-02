@@ -48,9 +48,9 @@
   <ItemGroup>
      <Compile Include="Assets\Die.cs" />
      <Compile Include="Assets\EndDuck.cs" />
+     <Compile Include="Assets\Fall.cs" />
      <Compile Include="Assets\Fly.cs" />
      <Compile Include="Assets\Generator.cs" />
-     <Compile Include="Assets\States.cs" />
      <Compile Include="Assets\StaticVars.cs" />
      <Compile Include="Assets\UpdateScore.cs" />
  <Reference Include="UnityEngine.UI">

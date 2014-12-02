@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Fly : MonoBehaviour {
 
-	public float flightSpeed = 0.05f;
+	public float flightSpeed = 0.04f;
 	private float altDirection;
 	public bool flightDirection = false;
 
@@ -31,8 +31,8 @@ public class Fly : MonoBehaviour {
 		transform.position += new Vector3 (altDirection,flightSpeed,0);
 	}
 
-//	void OnTriggerEnter () 
-//	{
-//		ResetFlightDirection ();
-//	}
+	void OnTriggerEnter () 
+	{
+		ResetFlightDirection ();
+	}
 }
