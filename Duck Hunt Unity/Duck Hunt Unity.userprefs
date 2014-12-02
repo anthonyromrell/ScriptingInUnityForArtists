@@ -1,6 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Fly.cs">
+    <Files>
+      <File FileName="Assets/Fall.cs" Line="6" Column="30" />
+      <File FileName="Assets/Fly.cs" Line="6" Column="2" />
+      <File FileName="Assets/Die.cs" Line="1" Column="1" />
+      <File FileName="Assets/FlySimple.cs" Line="8" Column="42" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

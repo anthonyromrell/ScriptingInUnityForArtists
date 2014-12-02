@@ -46,13 +46,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Die.cs" />
-     <Compile Include="Assets\EndDuck.cs" />
-     <Compile Include="Assets\Fall.cs" />
-     <Compile Include="Assets\Fly.cs" />
-     <Compile Include="Assets\Generator.cs" />
-     <Compile Include="Assets\StaticVars.cs" />
-     <Compile Include="Assets\UpdateScore.cs" />
+     <Compile Include="Assets\01\DieDestroy.cs" />
+     <Compile Include="Assets\01\FlySimple.cs" />
+     <Compile Include="Assets\01\UpdateScore.cs" />
+     <Compile Include="Assets\02\DieFall.cs" />
+     <Compile Include="Assets\02\Fall.cs" />
+     <Compile Include="Assets\02\Fly.cs" />
+     <Compile Include="Assets\03\EndDuck.cs" />
+     <Compile Include="Assets\03\Generator.cs" />
+     <Compile Include="Assets\StaticAndPrefabs\StaticVars.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity46/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>

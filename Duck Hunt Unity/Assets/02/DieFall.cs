@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Die : MonoBehaviour {
+public class DieFall : DieDestroy {
 
 	public Fly flyS;
 	public Fall fallS;
 
-	void OnMouseEnter () 
+	public override void OnMouseEnter () 
 	{
 		StaticVars.gameScore++;
 		flyS.enabled = false;

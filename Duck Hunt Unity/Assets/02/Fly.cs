@@ -1,21 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Fly : MonoBehaviour {
+public class Fly : FlySimple{
 
-	public float flightSpeed = 0.04f;
 	private float altDirection;
 	public bool flightDirection = false;
-
-	void ResetFlightDirection ()
-	{
-		flightDirection = (Random.value < 0.5);
-		ChangeDirection ();
-	}
-
-	void Start () {
-		ResetFlightDirection ();
-	}
 
 	void ChangeDirection ()
 	{
@@ -26,9 +15,25 @@ public class Fly : MonoBehaviour {
 			altDirection = flightSpeed * -1;
 		}
 	}
+	
+	void ResetFlightDirection ()
+	{
+		flightDirection = (Random.value < 0.5);
+		ChangeDirection ();
+	}
+
+	void Start () {
+		ResetFlightDirection ();
+	}
+
+
+	public override void ChangeFlightPosition ()
+	{
+		transform.position += new Vector3 (altDirection, flightSpeed, 0);
+	}
 
 	void Update () {
-		transform.position += new Vector3 (altDirection,flightSpeed,0);
+		ChangeFlightPosition ();
 	}
 
 	void OnTriggerEnter () 
