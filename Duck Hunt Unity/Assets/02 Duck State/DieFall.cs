@@ -9,7 +9,10 @@ public class DieFall : DieDestroy {
 	public override void OnMouseEnter () 
 	{
 		StaticVars.gameScore++;
-		flyS.enabled = false;
-		fallS.enabled = true;
+		if (StaticVars.bullets > 0) {
+			StaticVars.bullets--;
+			flyS.enabled = false;
+			fallS.enabled = true;
+		}
 	}
 }
