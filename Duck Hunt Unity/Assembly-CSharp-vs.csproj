@@ -56,6 +56,10 @@
      <Compile Include="Assets\03 GenerateDestroy\Generator.cs" />
      <Compile Include="Assets\04 Dog State\EndDuckPlus.cs" />
      <Compile Include="Assets\04 Dog State\ResetDog.cs" />
+     <Compile Include="Assets\05 Additions\DuckGenRandPos.cs" />
+     <Compile Include="Assets\05 Additions\EndDuckPlusMoveDog.cs" />
+     <Compile Include="Assets\GameController.cs" />
+     <Compile Include="Assets\LoadMyGameLevel.cs" />
      <Compile Include="Assets\StaticAndPrefabs\StaticVars.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity46/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
