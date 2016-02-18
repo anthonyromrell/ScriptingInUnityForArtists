@@ -2,27 +2,29 @@
 using System.Collections;
 using System;
 
+[RequireComponent(typeof(Rigidbody))]
+
 public class AmmoBase : MonoBehaviour {
 
-	public int distance = 1000;
+	public 	Transform ammoSpawnPoint;
+	public static Action<AmmoBase> SendAmmo;
+	Rigidbody ammoRigidBody;
 
-	public static Action<AmmoBase> AddThisToWeaponList;	
+	void AddSpawnPoint (Transform obj)
+	{
+		ammoSpawnPoint = obj;
+	}
 
-	IEnumerator FireToDistance () {
-		print ("FIRE");
-		while (distance > 0) {
-			distance--;
-			print (distance);
-			yield return new WaitForSeconds(0.5f);
-		}
+	public virtual void Start () {
+		SpawnPoint.SendSpawnPoint += AddSpawnPoint;
+		ammoRigidBody = GetComponent<Rigidbody> ();
+		ammoRigidBody.useGravity = false;
 	}
 
 	public void FireAmmo () {
-		StartCoroutine (FireToDistance());
+		ammoRigidBody.Sleep ();
+		ammoRigidBody.transform.position = ammoSpawnPoint.position;
+		ammoRigidBody.AddExplosionForce (200, Vector3.forward, 100);
 	}
 
-	// Use this for initialization
-	void Start () {
-		AddThisToWeaponList (this);
-	}
 }

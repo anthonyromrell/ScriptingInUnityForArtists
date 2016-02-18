@@ -4,23 +4,45 @@ using System.Collections.Generic;
 using System;
 
 public class WeaponBase : MonoBehaviour {
-	
-	public List<AmmoBase> AmmoBaseList;
 
-	void HandleAddToWeapon (AmmoBase _ammoBase)
+	public int ammoRounds = 10;
+
+	private List<AmmoBase> weaponAmmo;
+
+	void AddAmmoToList (AmmoBase _ammobase) {
+		weaponAmmo.Add (_ammobase);
+		print (weaponAmmo.Count);
+	}
+
+	int i = 0;
+
+	void RecycleAmmo ()
 	{
-		AmmoBaseList.Add (_ammoBase);
+		if (i < weaponAmmo.Count) {
+						weaponAmmo[i].FireAmmo();
+						i++;
+				} else {
+						i = 0;
+			}
 	}
 
-	// Use this for initialization
-	void Start () {
-		AmmoBaseList = new List<AmmoBase> ();
-		AmmoBase.AddThisToWeaponList += HandleAddToWeapon;
+	void Fire ( ) {
+		if (ammoRounds > 0) {
+						print ("Fire");
+						ammoRounds--;
+						RecycleAmmo();
+		
+				} else {
+						print ("Out");
+				}
 	}
-	
-	// Update is called once per frame
+
 	void OnMouseDown () {
-		print ("hey");
-		AmmoBaseList [0].FireAmmo ();
+		Fire ();
+	}
+
+	void Start () {
+		weaponAmmo = new List<AmmoBase> ();
+		AmmoBase.SendAmmo += AddAmmoToList;
 	}
 }

@@ -48,10 +48,9 @@
   <ItemGroup>
      <Compile Include="Assets\GameController.cs" />
      <Compile Include="Assets\LoadMyGameLevel.cs" />
-     <Compile Include="Assets\Scripts\Advanced\DiceGame\DiceForce.cs" />
-     <Compile Include="Assets\Scripts\Advanced\DiceGame\DiceSide.cs" />
-     <Compile Include="Assets\Scripts\Advanced\DiceGame\ListenToDiceEnd.cs" />
      <Compile Include="Assets\Scripts\Advanced\Weapons\AmmoBase.cs" />
+     <Compile Include="Assets\Scripts\Advanced\Weapons\AmmoBomb.cs" />
+     <Compile Include="Assets\Scripts\Advanced\Weapons\SpawnPoint.cs" />
      <Compile Include="Assets\Scripts\Advanced\Weapons\WeaponBase.cs" />
      <Compile Include="Assets\Scripts\Basics\Conditionals\IfStatements.cs" />
      <Compile Include="Assets\Scripts\Basics\DuckHunt\01 Basics\DieDestroy.cs" />
@@ -71,8 +70,13 @@
      <Compile Include="Assets\Scripts\Basics\Functions\Variables and Arrays\ArraysAndLists.cs" />
      <Compile Include="Assets\Scripts\Basics\Functions\Variables and Arrays\StaticVariables.cs" />
      <Compile Include="Assets\Scripts\Basics\Functions\Variables and Arrays\Variables.cs" />
+     <Compile Include="Assets\Scripts\Intermediate\DiceGame\DiceForce.cs" />
+     <Compile Include="Assets\Scripts\Intermediate\DiceGame\DiceSide.cs" />
+     <Compile Include="Assets\Scripts\Intermediate\DiceGame\ListenToDiceEnd.cs" />
      <Compile Include="Assets\Scripts\Intermediate\FuncHandler.cs" />
      <Compile Include="Assets\Scripts\Intermediate\Funcs.cs" />
+     <Compile Include="Assets\Scripts\Intermediate\LazerLine\LazerLength.cs" />
+     <Compile Include="Assets\Scripts\Intermediate\LazerLine\LazerLookAt.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
