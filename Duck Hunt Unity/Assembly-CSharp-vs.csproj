@@ -46,26 +46,33 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\DuckHunt\01 Basics\DieDestroy.cs" />
-     <Compile Include="Assets\DuckHunt\01 Basics\FlySimple.cs" />
-     <Compile Include="Assets\DuckHunt\01 Basics\UpdateScore.cs" />
-     <Compile Include="Assets\DuckHunt\02 Duck State\DieFall.cs" />
-     <Compile Include="Assets\DuckHunt\02 Duck State\Fall.cs" />
-     <Compile Include="Assets\DuckHunt\02 Duck State\Fly.cs" />
-     <Compile Include="Assets\DuckHunt\03 GenerateDestroy\EndDuck.cs" />
-     <Compile Include="Assets\DuckHunt\03 GenerateDestroy\Generator.cs" />
-     <Compile Include="Assets\DuckHunt\04 Dog State\EndDuckPlus.cs" />
-     <Compile Include="Assets\DuckHunt\04 Dog State\ResetDog.cs" />
-     <Compile Include="Assets\DuckHunt\05 Additions\DuckGenRandPos.cs" />
-     <Compile Include="Assets\DuckHunt\05 Additions\EndDuckPlusMoveDog.cs" />
-     <Compile Include="Assets\DuckHunt\StaticAndPrefabs\StaticVars.cs" />
      <Compile Include="Assets\GameController.cs" />
      <Compile Include="Assets\LoadMyGameLevel.cs" />
-     <Compile Include="Assets\Scripts\Conditionals\IfStatements.cs" />
-     <Compile Include="Assets\Scripts\Functions\Functions.cs" />
-     <Compile Include="Assets\Scripts\Variables and Arrays\ArraysAndLists.cs" />
-     <Compile Include="Assets\Scripts\Variables and Arrays\StaticVariables.cs" />
-     <Compile Include="Assets\Scripts\Variables and Arrays\Variables.cs" />
+     <Compile Include="Assets\Scripts\Advanced\DiceGame\DiceForce.cs" />
+     <Compile Include="Assets\Scripts\Advanced\DiceGame\DiceSide.cs" />
+     <Compile Include="Assets\Scripts\Advanced\DiceGame\ListenToDiceEnd.cs" />
+     <Compile Include="Assets\Scripts\Advanced\Weapons\AmmoBase.cs" />
+     <Compile Include="Assets\Scripts\Advanced\Weapons\WeaponBase.cs" />
+     <Compile Include="Assets\Scripts\Basics\Conditionals\IfStatements.cs" />
+     <Compile Include="Assets\Scripts\Basics\DuckHunt\01 Basics\DieDestroy.cs" />
+     <Compile Include="Assets\Scripts\Basics\DuckHunt\01 Basics\FlySimple.cs" />
+     <Compile Include="Assets\Scripts\Basics\DuckHunt\01 Basics\UpdateScore.cs" />
+     <Compile Include="Assets\Scripts\Basics\DuckHunt\02 Duck State\DieFall.cs" />
+     <Compile Include="Assets\Scripts\Basics\DuckHunt\02 Duck State\Fall.cs" />
+     <Compile Include="Assets\Scripts\Basics\DuckHunt\02 Duck State\Fly.cs" />
+     <Compile Include="Assets\Scripts\Basics\DuckHunt\03 GenerateDestroy\EndDuck.cs" />
+     <Compile Include="Assets\Scripts\Basics\DuckHunt\03 GenerateDestroy\Generator.cs" />
+     <Compile Include="Assets\Scripts\Basics\DuckHunt\04 Dog State\EndDuckPlus.cs" />
+     <Compile Include="Assets\Scripts\Basics\DuckHunt\04 Dog State\ResetDog.cs" />
+     <Compile Include="Assets\Scripts\Basics\DuckHunt\05 Additions\DuckGenRandPos.cs" />
+     <Compile Include="Assets\Scripts\Basics\DuckHunt\05 Additions\EndDuckPlusMoveDog.cs" />
+     <Compile Include="Assets\Scripts\Basics\DuckHunt\StaticAndPrefabs\StaticVars.cs" />
+     <Compile Include="Assets\Scripts\Basics\Functions\Functions.cs" />
+     <Compile Include="Assets\Scripts\Basics\Functions\Variables and Arrays\ArraysAndLists.cs" />
+     <Compile Include="Assets\Scripts\Basics\Functions\Variables and Arrays\StaticVariables.cs" />
+     <Compile Include="Assets\Scripts\Basics\Functions\Variables and Arrays\Variables.cs" />
+     <Compile Include="Assets\Scripts\Intermediate\FuncHandler.cs" />
+     <Compile Include="Assets\Scripts\Intermediate\Funcs.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
