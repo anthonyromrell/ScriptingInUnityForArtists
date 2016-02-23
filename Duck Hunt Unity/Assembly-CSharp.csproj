@@ -48,10 +48,15 @@
   <ItemGroup>
      <Compile Include="Assets\GameController.cs" />
      <Compile Include="Assets\LoadMyGameLevel.cs" />
-     <Compile Include="Assets\Scripts\Advanced\Weapons\AmmoBase.cs" />
-     <Compile Include="Assets\Scripts\Advanced\Weapons\AmmoBomb.cs" />
-     <Compile Include="Assets\Scripts\Advanced\Weapons\SpawnPoint.cs" />
-     <Compile Include="Assets\Scripts\Advanced\Weapons\WeaponBase.cs" />
+     <Compile Include="Assets\Scripts\Advanced\Weapons\Base\AmmoBase.cs" />
+     <Compile Include="Assets\Scripts\Advanced\Weapons\Base\WeaponBase.cs" />
+     <Compile Include="Assets\Scripts\Advanced\Weapons\Base\WeaponSpawnPointBase.cs" />
+     <Compile Include="Assets\Scripts\Advanced\Weapons\Bomb\AmmoBomb.cs" />
+     <Compile Include="Assets\Scripts\Advanced\Weapons\Bomb\WeaponBomb.cs" />
+     <Compile Include="Assets\Scripts\Advanced\Weapons\Bomb\WeaponSPBomb.cs" />
+     <Compile Include="Assets\Scripts\Advanced\Weapons\Gun\AmmoGun.cs" />
+     <Compile Include="Assets\Scripts\Advanced\Weapons\Gun\WeaponGun.cs" />
+     <Compile Include="Assets\Scripts\Advanced\Weapons\Gun\WeaponSPGun.cs" />
      <Compile Include="Assets\Scripts\Basics\Conditionals\IfStatements.cs" />
      <Compile Include="Assets\Scripts\Basics\DuckHunt\01 Basics\DieDestroy.cs" />
      <Compile Include="Assets\Scripts\Basics\DuckHunt\01 Basics\FlySimple.cs" />
@@ -77,6 +82,9 @@
      <Compile Include="Assets\Scripts\Intermediate\Funcs.cs" />
      <Compile Include="Assets\Scripts\Intermediate\LazerLine\LazerLength.cs" />
      <Compile Include="Assets\Scripts\Intermediate\LazerLine\LazerLookAt.cs" />
+     <Compile Include="Assets\Scripts\Intermediate\Respawning\SetThisAsSpawnPoint.cs" />
+     <Compile Include="Assets\Scripts\Intermediate\Respawning\SpawnControl.cs" />
+     <Compile Include="Assets\Scripts\Intermediate\Respawning\SpawnPointList.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

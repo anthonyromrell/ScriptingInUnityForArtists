@@ -7,9 +7,9 @@ public class WeaponBase : MonoBehaviour {
 
 	public int ammoRounds = 10;
 
-	private List<AmmoBase> weaponAmmo;
+	public List<AmmoBase> weaponAmmo;
 
-	void AddAmmoToList (AmmoBase _ammobase) {
+	public void AddAmmoToList (AmmoBase _ammobase) {
 		weaponAmmo.Add (_ammobase);
 		print (weaponAmmo.Count);
 	}
@@ -41,8 +41,8 @@ public class WeaponBase : MonoBehaviour {
 		Fire ();
 	}
 
-	void Start () {
+	public virtual void Start () {
 		weaponAmmo = new List<AmmoBase> ();
-		AmmoBase.SendAmmo += AddAmmoToList;
+		//AmmoBase.SendAmmo += AddAmmoToList;
 	}
 }

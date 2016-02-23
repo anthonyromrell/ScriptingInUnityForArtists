@@ -9,8 +9,8 @@ public class AmmoBomb : AmmoBase {
 	public override void Start ()
 	{
 		base.Start ();
+		WeaponSPBomb.SendSpawnPoint += AddSpawnPoint;
 		if (SendBomb != null)
 			SendBomb (this);
 	}
-
 }

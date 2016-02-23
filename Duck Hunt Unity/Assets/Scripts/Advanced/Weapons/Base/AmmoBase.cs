@@ -6,17 +6,16 @@ using System;
 
 public class AmmoBase : MonoBehaviour {
 
-	public 	Transform ammoSpawnPoint;
-	public static Action<AmmoBase> SendAmmo;
+	public Transform ammoSpawnPoint;
+	//public static Action<AmmoBase> SendAmmo;
 	Rigidbody ammoRigidBody;
 
-	void AddSpawnPoint (Transform obj)
+	public void AddSpawnPoint (Transform obj)
 	{
 		ammoSpawnPoint = obj;
 	}
 
 	public virtual void Start () {
-		SpawnPoint.SendSpawnPoint += AddSpawnPoint;
 		ammoRigidBody = GetComponent<Rigidbody> ();
 		ammoRigidBody.useGravity = false;
 	}

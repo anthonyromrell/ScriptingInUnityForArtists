@@ -1,14 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Intermediate\LazerLine\LazerLength.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Advanced\Weapons\Gun\WeaponSPGun.cs">
     <Files>
-      <File FileName="Duck Hunt Unity.sln" Line="39" Column="10" />
-      <File FileName="Assets\Scripts\Advanced\Weapons\SpawnPoint.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Advanced\Weapons\WeaponBase.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Advanced\Weapons\AmmoBase.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Advanced\Weapons\AmmoBomb.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Intermediate\LazerLine\LazerLookAt.cs" Line="10" Column="28" />
-      <File FileName="Assets\Scripts\Intermediate\LazerLine\LazerLength.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Advanced\Weapons\Bomb\WeaponSPBomb.cs" Line="4" Column="42" />
+      <File FileName="Assets\Scripts\Advanced\Weapons\Gun\WeaponSPGun.cs" Line="5" Column="41" />
+      <File FileName="Assets\Scripts\Advanced\Weapons\Base\WeaponSpawnPointBase.cs" Line="9" Column="2" />
+      <File FileName="Assets\Scripts\Advanced\Weapons\Gun\AmmoGun.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Advanced\Weapons\Base\AmmoBase.cs" Line="12" Column="2" />
+      <File FileName="Assets\Scripts\Advanced\Weapons\Bomb\AmmoBomb.cs" Line="12" Column="48" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
