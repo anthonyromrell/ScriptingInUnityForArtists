@@ -7,11 +7,15 @@ public class PlayerMovement : MonoBehaviour {
 	public float speed = 10;
 	CharacterController cc;
 
+	public void StopMoving (){
+		MoveUsingArrowKeys.MoveOnArrows -= Move;
+		MoveUsingArrowKeys.RotateOnArrows -= Rotate;
+	}
+
 	void Start () {
 		cc = GetComponent<CharacterController> ();
 		MoveUsingArrowKeys.MoveOnArrows += Move;
 		//MoveUsingButtons.Forward += Move;
-
 		MoveUsingArrowKeys.RotateOnArrows += Rotate;
 		//MoveUsingButtons.Rotate += Rotate;
 	}

@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scripts\Advanced\AI\PatrolOrAttack.cs" />
      <Compile Include="Assets\Scripts\Advanced\AI\PatrolOrAttackDynamic.cs" />
      <Compile Include="Assets\Scripts\Advanced\AI\RandomAiPatrol.cs" />
+     <Compile Include="Assets\Scripts\Advanced\Hazard\HazardBase.cs" />
      <Compile Include="Assets\Scripts\Advanced\Weapons\Base\AmmoBase.cs" />
      <Compile Include="Assets\Scripts\Advanced\Weapons\Base\WeaponBase.cs" />
      <Compile Include="Assets\Scripts\Advanced\Weapons\Base\WeaponSpawnPointBase.cs" />
@@ -81,6 +82,7 @@
      <Compile Include="Assets\Scripts\Basics\Functions\Variables and Arrays\StaticVariables.cs" />
      <Compile Include="Assets\Scripts\Basics\Functions\Variables and Arrays\Variables.cs" />
      <Compile Include="Assets\Scripts\Intermediate\CharacterControl\MoveUsingArrowKeys.cs" />
+     <Compile Include="Assets\Scripts\Intermediate\CharacterControl\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Intermediate\CharacterControl\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Intermediate\DiceGame\DiceForce.cs" />
      <Compile Include="Assets\Scripts\Intermediate\DiceGame\DiceSide.cs" />
