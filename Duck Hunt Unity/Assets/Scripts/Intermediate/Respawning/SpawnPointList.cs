@@ -14,5 +14,4 @@ public class SpawnPointList : MonoBehaviour {
 		spawnPoints = new List<Transform> ();
 		SetThisAsSpawnPoint.PassTransformAsSpawnPoint += AddToSpawnPointsList;
 	}
-
 }
