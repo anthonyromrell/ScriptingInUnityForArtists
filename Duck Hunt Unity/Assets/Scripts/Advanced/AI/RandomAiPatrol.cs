@@ -15,9 +15,10 @@ public class RandomAiPatrol : MonoBehaviour {
 		void Patrolling() {
 				if (patrolPoints.Length == 0)
 						return;
-				enemyAgent.destination = patrolPoints [currentPatrolPoint].position;
 
 				currentPatrolPoint = UnityEngine.Random.Range (0, patrolPoints.Length-1);
+				enemyAgent.destination = patrolPoints [currentPatrolPoint].position;
+				
 		}
 				
 		void Update () {

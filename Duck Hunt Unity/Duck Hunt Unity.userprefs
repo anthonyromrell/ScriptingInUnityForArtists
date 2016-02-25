@@ -1,10 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Intermediate\Respawning\SpawnPointList.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Advanced\AI\NewRandomAI.cs">
     <Files>
-      <File FileName="Assets\Scripts\Intermediate\Respawning\SetThisAsSpawnPoint.cs" Line="5" Column="47" />
-      <File FileName="Assets\Scripts\Intermediate\Respawning\SpawnControl.cs" Line="17" Column="21" />
-      <File FileName="Assets\Scripts\Intermediate\Respawning\SpawnPointList.cs" Line="18" Column="1" />
+      <File FileName="Assets\Scripts\Advanced\AI\RandomAiPatrol.cs" Line="21" Column="5" />
+      <File FileName="Assets\Scripts\Advanced\AI\NewRandomAI.cs" Line="18" Column="52" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
