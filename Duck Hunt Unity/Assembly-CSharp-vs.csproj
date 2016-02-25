@@ -80,6 +80,8 @@
      <Compile Include="Assets\Scripts\Basics\Functions\Variables and Arrays\ArraysAndLists.cs" />
      <Compile Include="Assets\Scripts\Basics\Functions\Variables and Arrays\StaticVariables.cs" />
      <Compile Include="Assets\Scripts\Basics\Functions\Variables and Arrays\Variables.cs" />
+     <Compile Include="Assets\Scripts\Intermediate\CharacterControl\MoveUsingArrowKeys.cs" />
+     <Compile Include="Assets\Scripts\Intermediate\CharacterControl\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Intermediate\DiceGame\DiceForce.cs" />
      <Compile Include="Assets\Scripts\Intermediate\DiceGame\DiceSide.cs" />
      <Compile Include="Assets\Scripts\Intermediate\DiceGame\ListenToDiceEnd.cs" />

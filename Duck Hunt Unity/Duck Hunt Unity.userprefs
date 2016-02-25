@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Advanced\AI\NewRandomAI.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Intermediate\PlayerMovement.cs">
     <Files>
-      <File FileName="Assets\Scripts\Advanced\AI\RandomAiPatrol.cs" Line="21" Column="5" />
-      <File FileName="Assets\Scripts\Advanced\AI\NewRandomAI.cs" Line="18" Column="52" />
+      <File FileName="Assets\Scripts\Intermediate\PlayerMovement.cs" Line="11" Column="22" />
+      <File FileName="Assets\Scripts\Advanced\AI\RandomAiPatrol.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Advanced\AI\NewRandomAI.cs" Line="21" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
