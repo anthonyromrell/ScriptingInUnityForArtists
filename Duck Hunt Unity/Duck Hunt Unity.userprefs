@@ -1,11 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/02 Duck State/DieFall.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../XacFAQ/Assets/Common/Scripts/App/TopicUnlock.cs">
     <Files>
-      <File FileName="Assets/StaticAndPrefabs/StaticVars.cs" Line="6" Column="36" />
-      <File FileName="Assets/GameController.cs" Line="13" Column="2" />
-      <File FileName="Assets/05 Additions/DuckGenRandPos.cs" Line="13" Column="4" />
-      <File FileName="Assets/02 Duck State/DieFall.cs" Line="18" Column="3" />
+      <File FileName="../../XacFAQ/Assets/Common/Scripts/App/Coverflow.cs" Line="175" Column="2" />
+      <File FileName="../../XacFAQ/Assets/Common/Scripts/App/TopicUnlock.cs" Line="78" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
