@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\Advanced\AI\PatrolOrAttackDynamic.cs" />
      <Compile Include="Assets\Scripts\Advanced\AI\RandomAiPatrol.cs" />
      <Compile Include="Assets\Scripts\Advanced\Hazard\HazardBase.cs" />
+     <Compile Include="Assets\Scripts\Advanced\Puzzles\PuzzleControl.cs" />
      <Compile Include="Assets\Scripts\Advanced\Weapons\Base\AmmoBase.cs" />
      <Compile Include="Assets\Scripts\Advanced\Weapons\Base\WeaponBase.cs" />
      <Compile Include="Assets\Scripts\Advanced\Weapons\Base\WeaponSpawnPointBase.cs" />
@@ -91,6 +92,8 @@
      <Compile Include="Assets\Scripts\Intermediate\Funcs.cs" />
      <Compile Include="Assets\Scripts\Intermediate\LazerLine\LazerLength.cs" />
      <Compile Include="Assets\Scripts\Intermediate\LazerLine\LazerLookAt.cs" />
+     <Compile Include="Assets\Scripts\Intermediate\Puzzling\ActivatePuzzle.cs" />
+     <Compile Include="Assets\Scripts\Intermediate\Puzzling\ColorPuzzleLogic.cs" />
      <Compile Include="Assets\Scripts\Intermediate\Respawning\SetThisAsSpawnPoint.cs" />
      <Compile Include="Assets\Scripts\Intermediate\Respawning\SpawnControl.cs" />
      <Compile Include="Assets\Scripts\Intermediate\Respawning\SpawnPointList.cs" />
