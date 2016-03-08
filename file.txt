@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-Old Code
-=======
-New Code
->>>>>>> test
+All new code
