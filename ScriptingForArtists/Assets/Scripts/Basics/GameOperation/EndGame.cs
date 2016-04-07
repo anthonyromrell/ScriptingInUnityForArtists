@@ -14,7 +14,6 @@ public class EndGame : MonoBehaviour {
 		Application.LoadLevel ("EndGame");
 	}
 
-	// Use this for initialization
 	void OnMouseDown () {
 		health -= 0.1f;
 		healthScale.x = health;
