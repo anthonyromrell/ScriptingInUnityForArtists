@@ -27,5 +27,6 @@ public class Syntax : MonoBehaviour {
 		print (myInt);
 		myInt = MyInt (45, 35);
 		print (myInt);
+		myInt = 89;
 	}
 }
