@@ -19,7 +19,7 @@ public class Syntax : MonoBehaviour {
 	}
 
 	void Start () {
-		myInt = MyIntNoArgs (8, 800);
+//		myInt = MyIntNoArgs (8, 800);
 		print (myInt);
 		myInt = MyIntBy2 (10);
 		print (myInt);
