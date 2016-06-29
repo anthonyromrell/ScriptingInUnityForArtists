@@ -9,5 +9,6 @@ public class BonusSprinklesClass : MonoBehaviour {
 		//Add sprinkles to the users cone
 		//Needs to know the final order
 		//to the know the order is needs to reference the order class
+		print ("Yum you added sprinkles");
 	}
 }
