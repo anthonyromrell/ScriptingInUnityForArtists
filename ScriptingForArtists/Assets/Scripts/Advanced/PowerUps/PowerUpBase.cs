@@ -3,13 +3,15 @@ using System.Collections;
 
 public class PowerUpBase : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
+	public int power = 100;
+	public int speed = 10;
+	public int health = 5;
+
+	public PowerUpInventory myInventory;
+
+	void OnMouseUp () {
+		myInventory.AddPowerUpToList (this);
+		gameObject.SetActive (false);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
 }
